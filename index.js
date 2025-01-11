@@ -34,7 +34,7 @@ app.post("/saveUser", async (req, res) => {
 
     return res
       .status(201)
-      .json({ message: "User saved successfully", user: newUser });
+      .json({ message: "User saved successfully for Demo" });
   } catch (err) {
     return res
       .status(500)
